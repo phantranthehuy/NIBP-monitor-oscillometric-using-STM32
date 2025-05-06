@@ -1,0 +1,82 @@
+# --- Hệ điều hành và Editor ---
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.#*
+
+# --- VS Code ---
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+# Bỏ comment dòng dưới nếu bạn không muốn chia sẻ cấu hình C/C++ của VSCode
+# .vscode/c_cpp_properties.json
+
+# --- Build Artifacts (Rất quan trọng cho C/C++) ---
+*.o
+*.obj
+*.elf
+*.axf
+*.out
+*.hex
+*.bin
+*.srec
+*.map
+*.lst
+*.d
+*.su
+
+# --- Thư mục Build/Output phổ biến ---
+build/
+Build/
+Debug/
+Release/
+Objects/
+Listings/
+RTE/ # Keil Run-Time Environment
+
+# --- IDE Specific (Thêm/bỏ tùy theo IDE bạn dùng) ---
+# Keil uVision
+*.uvproj
+*.uvopt
+*.uvprojx
+*.uvoptx
+*.uvguix
+*.uvguix.*
+*.bak # Keil backups
+*_Data/
+JLinkLog.txt
+
+# STM32CubeIDE / Eclipse
+.settings/
+.project
+.cproject
+.csettings
+*.launch
+
+# --- Altium Designer ---
+History/
+Project Outputs for */
+*.LOG
+*.bak
+*.~*
+*.#*
+# Cân nhắc nếu bạn muốn commit Gerbers, BOMs thì đừng ignore chúng
+
+# --- Simulation (Ví dụ: Proteus) ---
+*.DBK
+*.LDB
+# *.PWI # Tùy thuộc vào file Proteus nào bạn không muốn commit
+
+# --- Thư mục tạm hoặc log khác ---
+*.log
+*.tmp
+temp/
+
+# --- Có thể thêm các file đặc thù của dự án bạn ---
+# ví dụ:
+# my_secret_config.h
+# private_keys/
