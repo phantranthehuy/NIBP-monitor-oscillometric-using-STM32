@@ -69,3 +69,12 @@ You will need a programmer/debugger compatible with STM32 microcontrollers.
 5.  **View Results:** The Systolic (SYS) and Diastolic (DIA) pressure values will be displayed on the LCD screen in mmHg.
 6.  **Alerts:** If the Red LED turns on, it indicates the reading is outside the normal range.
 7.  **Stop:** Press the **STOP** button at any time to cancel the measurement and deflate the cuff immediately.
+
+## Visuals
+
+*   **Block Diagram:** (See report PDF, Figure 3.1.1)
+*   **Schematic:** (See report PDF, Figure 4.1.1)
+*   **PCB Layout:** (See report PDF, Figure 4.2.1)
+*   **Photo of Device:** (See report PDF, Page 31 or 32)
+*   **Operation Flowchart:** (See report PDF, Page 34)
+*   ![Report](Docs/Project_Report/Final_Report.pdf)
